@@ -3,15 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="/style/reset.css">
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/all.js" defer></script>
 </head>
 <body>
     <main>
         <div class="right-side">
+            <div class="user-pass-form">
+                <p>ورود</p>
+                <h1>ورود به حساب کاربری</h1>
+                <h3>جهت ورود به برنامه نام کاربری و رمز عبور خود را وارد نمایید</h3>
+                <form action="#" method="post">
+                    <div class="email">
+                        <input type="email" name="email-input" id="email-input">
+                        <i class="fas fa-user icons"></i>
+                    </div>
+                    <div class="pass">
+                        <input type="password" name="pass-input" id="pass-input">
+                        <i class="fas fa-lock-alt icons"></i>
+                    </div>
+                    <div class="security-code-wrapper">
+                        <div class="security-code">
+                            <input type="text" name="security-code-input" id="security-code-input">
+                            <img src="Assets/PNG/menu.svg" alt="menu" class="icons">
+                        </div>
+                        <div class="captcha">
+                            <img src="Assets/PNG/captcha.gif" alt="captcha">
+                            <i class="far fa-sync-alt icons"></i>
+                        </div>
+                        <div class="submit">
+                            <button type="submit">ورود</button>
+                        </div>
+                        <div class="remember">
+                            <input type="checkbox">
+                            <i class="fal fa-check-square"></i>
+                            <i class="fal fa-square"></i>
+                            <label for="">مرا به خاطر بسپار</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
         <div class="left-side">
-
         </div>
     </main>
 </body>

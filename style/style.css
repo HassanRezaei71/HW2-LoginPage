@@ -1,7 +1,39 @@
 @font-face {
     font-family: "shabnam";
-    src: url("../Assets/Fonts/Shabnam.eot") format("embedded-opentype"),
-    url("../Assets/Fonts/Shabnam.ttf") format("woff"),
+    src: url("../Assets/Fonts/Shabnam.woff") format("woff"),
+    url("../Assets/Fonts/Shabnam.ttf") format("truetype"),
+    url("../Assets/Fonts/Shabnam.eot") format("embedded-opentype"),
     url("../Assets/Fonts/Shabnam-Bold.ttf") format("truetype"),
     url("../Assets/Fonts/Shabnam-Light.ttf") format("truetype");
+}
+
+body{
+    font-family: "shabnam","Tahoma","sans-serif";
+    direction: rtl;
+}
+
+.icons{
+    width: 1em;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+}
+
+.right-side{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side{
+    width: 60%;
+    height: 100%;
+}
+
+.user-pass-form{
+    width: 70%;
 }
