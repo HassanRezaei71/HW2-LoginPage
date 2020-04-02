@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e981ed9-0de7-4c6e-81e7-981c5f58d52f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW2-LoginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW2-LoginPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
@@ -54,7 +53,9 @@
       <option name="presentableId" value="Default" />
       <updated>1585680532558</updated>
       <workItem from="1585680537876" duration="4707000" />
-      <workItem from="1585713883731" duration="9157000" />
+      <workItem from="1585713883731" duration="29681000" />
+      <workItem from="1585803680418" duration="3767000" />
+      <workItem from="1585822557301" duration="4986000" />
     </task>
     <servers />
   </component>
@@ -62,9 +63,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="380" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1585713888918">
+    <state x="317" y="83" key="CommitChangelistDialog2" timestamp="1585828311832">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="317" y="83" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1585828311832" />
+    <state x="380" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1585803679527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="380" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585713888918" />
+    <state x="380" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585803679527" />
   </component>
 </project>

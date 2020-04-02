@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: "shabnam";
     src: url("../Assets/Fonts/Shabnam.woff") format("woff"),
@@ -7,13 +11,24 @@
     url("../Assets/Fonts/Shabnam-Light.ttf") format("truetype");
 }
 
+html{
+    font-size: 16px;
+}
+
 body{
     font-family: "shabnam","Tahoma","sans-serif";
     direction: rtl;
 }
 
-.icons{
-    width: 1em;
+.icons,
+.menu-icon{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    width: 1rem;
+    color: #bebebe;
+    transition: 0.4s;
 }
 
 main{
@@ -35,5 +50,123 @@ main{
 }
 
 .user-pass-form{
+    width: 65%;
+}
+
+.user-pass-title{
+    color: #0093f0;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.form-header{
+    color: #424242;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.form-subheader{
+    font-size: 0.8rem;
+    color: #9e9e9e;
+    margin-bottom: 40px;
+}
+
+.email,
+.pass,
+.security-code,
+.captcha{
+    position: relative;
+}
+
+.email,
+.pass{
+    margin-bottom: 30px;
+}
+
+.security-code-wrapper{
+    margin-bottom: 40px;
+}
+
+#email-input,
+#pass-input,
+#security-code-input{
+    width: 100%;
+    border: none;
+    padding: 5px 5px 5px 20px;
+    color: #0293ee;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: "shabnam","Tahoma","sans-serif";
+    transition: 0.4s;
+}
+
+.security-code-wrapper{
+    display: flex;
+
+}
+
+.security-code{
+    width: 60%;
+}
+
+#email-input::placeholder,
+#pass-input::placeholder,
+#security-code-input::placeholder{
+    font-family: "shabnam","Tahoma","sans-serif";
+    color: #bebebe;
+    font-size: 0.8rem;
+}
+
+#email-input:focus,
+#pass-input:focus,
+#security-code-input:focus{
+    color: #0293ee;
+    border-color: #0293ee;
+}
+
+#email-input:focus + .icons,
+#pass-input:focus + .icons,
+#security-code-input:focus + a .icons{
+    color: #0293ee;
+}
+
+.remember-check{
+    display: none;
+}
+
+.captcha{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.captcha img {
     width: 70%;
+}
+
+.submit-button{
+    width: 100%;
+    background-color: #0093ed;
+    font-family: "shabnam","Tahoma","sans-serif";
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.submit{
+    margin-bottom: 20px;
+}
+
+.remember label{
+    cursor: pointer;
+    color: #bdbdbd;
+    font-size: 0.9rem;
+}
+
+.after-icon{
+    display: none;
+}
+
+label:focus + .after-icon{
+    display: block;
 }
