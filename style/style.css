@@ -11,6 +11,13 @@
     url("../Assets/Fonts/Shabnam-Light.ttf") format("truetype");
 }
 
+@font-face{
+    font-family: "Comfortaa";
+    src: url("../Assets/Fonts/Comfortaa-Bold.ttf") format("truetype"),
+    url("../Assets/Fonts/Comfortaa-Light.ttf") format("truetype"),
+    url("../Assets/Fonts/Comfortaa-Regular.ttf") format("truetype");
+}
+
 html{
     font-size: 16px;
 }
@@ -45,8 +52,22 @@ main{
 }
 
 .left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comfortaa","SansSerif";
     width: 60%;
     height: 100%;
+    position: relative;
+    background-image: linear-gradient(to bottom left,#9af2dc,#1fb6eb);
+}
+
+.left-side p{
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
 }
 
 .user-pass-form{
@@ -163,10 +184,3 @@ main{
     font-size: 0.9rem;
 }
 
-.after-icon{
-    display: none;
-}
-
-label:focus + .after-icon{
-    display: block;
-}
