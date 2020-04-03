@@ -60,6 +60,22 @@ main{
     height: 100%;
     position: relative;
     background-image: linear-gradient(to bottom left,#9af2dc,#1fb6eb);
+    overflow: hidden;
+}
+
+.left-side .radar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0;
+    transform: rotateZ(200deg);
+    z-index: 0;
+    opacity: 0.2;
+}
+
+.left-side .logo{
+    z-index: 1;
+    position: absolute;
 }
 
 .left-side p{
@@ -122,7 +138,6 @@ main{
 
 .security-code-wrapper{
     display: flex;
-
 }
 
 .security-code{
@@ -184,3 +199,14 @@ main{
     font-size: 0.9rem;
 }
 
+.fa-check-square{
+    display: none;
+}
+
+.remember-check:checked ~ .fa-check-square{
+    display: inline-block;
+}
+
+.remember-check:checked ~ .fa-square{
+    display: none;
+}

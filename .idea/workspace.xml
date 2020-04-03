@@ -39,6 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -55,7 +56,8 @@
       <workItem from="1585680537876" duration="4707000" />
       <workItem from="1585713883731" duration="29681000" />
       <workItem from="1585803680418" duration="3767000" />
-      <workItem from="1585822557301" duration="8650000" />
+      <workItem from="1585822557301" duration="16915000" />
+      <workItem from="1585888110905" duration="4657000" />
     </task>
     <servers />
   </component>
@@ -67,9 +69,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="317" y="83" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1585828311832" />
-    <state x="380" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1585803679527">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="356" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1585888112491">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
+    <state x="356" y="255" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1585888112491" />
     <state x="380" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585803679527" />
   </component>
 </project>
