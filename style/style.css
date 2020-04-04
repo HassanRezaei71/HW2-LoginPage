@@ -68,14 +68,17 @@ main{
     overflow: hidden;
 }
 
-.left-side .radar{
+.left-side .radar-image{
     position: absolute;
     top: 50%;
     left: 50%;
     transform-origin: 0 0;
-    transform: rotateZ(200deg);
     z-index: 0;
-    opacity: 0.2;
+    opacity: 0.1;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .left-side .logo{
@@ -216,11 +219,110 @@ main{
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     main{
         flex-direction: column;
     }
     .right-side{
         padding: 25px 0;
+    }
+}
+
+.radar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    width: 100vh;
+    height: 100vh;
+}
+
+.radar .ring {
+    background: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-animation: ringout 10s forwards infinite ease;
+    animation: ringout 10s forwards infinite ease;
+    opacity: 0.1;
+}
+.radar .ring2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.radar .ring3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.radar .ring4 {
+     -webkit-animation-delay: 3s;
+     animation-delay: 3s;
+ }
+.radar .ring5 {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+.radar .ring6 {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+.radar .ring7 {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.radar .ring8 {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes ringout {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0.3;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+}
+@keyframes ringout {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0.3;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        opacity: 0;
     }
 }
