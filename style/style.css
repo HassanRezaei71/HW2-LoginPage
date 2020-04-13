@@ -47,7 +47,6 @@ main{
 }
 
 .right-side{
-    /*width: 40%;*/
     flex: 0 0 40%;
     height: 100%;
     display: flex;
@@ -56,24 +55,22 @@ main{
 }
 
 .left-side{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Comfortaa","SansSerif";
-    /*width: 60%;*/
     flex: 0 0 60%;
-    height: 100%;
     position: relative;
-    background-image: linear-gradient(to bottom left,#9af2dc,#1fb6eb);
+    background-image: linear-gradient(to bottom left , #99f1db , #29bcef );
     overflow: hidden;
 }
 
-.left-side .radar-image{
+.radar-image{
     position: absolute;
-    top: 50%;
+    bottom: 50%;
     left: 50%;
-    transform-origin: 0 0;
-    z-index: 0;
+    transform-origin: bottom left;
     opacity: 0.1;
     animation-name: rotate;
     animation-duration: 4s;
@@ -239,46 +236,48 @@ main{
 }
 
 .radar .ring {
-    background: rgba(255,255,255,0.5);
+    background-color: #b4f8f8;
+    border: .3px solid #b0f5f5;
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 0;
     height: 0;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    -webkit-animation: ringout 10s forwards infinite ease;
-    animation: ringout 10s forwards infinite ease;
+    -webkit-transform: translate(-50% , -50%);
+    transform: translate(-50% ,-50%);
+    -webkit-animation: ringout 8s linear infinite;
+    animation: ringout 8s linear infinite;
     opacity: 0.1;
 }
+
 .radar .ring2 {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
 .radar .ring3 {
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    -webkit-animation-delay: 1.75s;
+    animation-delay: 1.75s;
 }
 .radar .ring4 {
-     -webkit-animation-delay: 3s;
-     animation-delay: 3s;
+     -webkit-animation-delay: 2.5s;
+     animation-delay: 2.5s;
  }
 .radar .ring5 {
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
 }
 .radar .ring6 {
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s;
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
 }
 .radar .ring7 {
-    -webkit-animation-delay: 6s;
-    animation-delay: 6s;
+    -webkit-animation-delay: 5.5s;
+    animation-delay: 4.5s;
 }
 .radar .ring8 {
-    -webkit-animation-delay: 7s;
-    animation-delay: 7s;
+    -webkit-animation-delay: 6.5s;
+    animation-delay: 6.5s;
 }
 
 @-webkit-keyframes rotate {
@@ -306,8 +305,17 @@ main{
     0% {
         width: 0;
         height: 0;
-        opacity: 0.3;
+        opacity: 0.15;
     }
+
+    50% {
+        opacity: 0.1;
+    }
+
+    75%{
+        opacity: 0.05;
+    }
+
     100% {
         width: 100%;
         height: 100%;
@@ -318,8 +326,17 @@ main{
     0% {
         width: 0;
         height: 0;
-        opacity: 0.3;
+        opacity: 0.15;
     }
+
+    50% {
+        opacity: 0.1;
+    }
+
+    75%{
+        opacity: 0.05;
+    }
+
     100% {
         width: 100%;
         height: 100%;

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3e981ed9-0de7-4c6e-81e7-981c5f58d52f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW2-LoginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW2-LoginPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +42,16 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RunManager">
+    <configuration name="HW2-LoginPage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HW2-LoginPage/HW2-LoginPage.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.HW2-LoginPage.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,6 +70,11 @@
       <workItem from="1585942322574" duration="485000" />
       <workItem from="1586018192119" duration="8363000" />
       <workItem from="1586027069568" duration="301000" />
+      <workItem from="1586723115231" duration="2102000" />
+      <workItem from="1586753409970" duration="6347000" />
+      <workItem from="1586762111439" duration="140000" />
+      <workItem from="1586762277575" duration="31000" />
+      <workItem from="1586762335189" duration="37000" />
     </task>
     <servers />
   </component>
@@ -72,10 +86,46 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="317" y="83" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1585828311832" />
-    <state x="356" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1586027072902">
+    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1586762351074">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="356" y="255" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1586027072902" />
+    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1586762351074" />
+    <state width="1237" height="325" key="GridCell.Tab.0.bottom" timestamp="1586761494434">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1586761494434" />
+    <state width="1237" height="325" key="GridCell.Tab.0.center" timestamp="1586761494434">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1586761494434" />
+    <state width="1237" height="325" key="GridCell.Tab.0.left" timestamp="1586761494433">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1586761494433" />
+    <state width="1237" height="325" key="GridCell.Tab.0.right" timestamp="1586761494434">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1586761494434" />
+    <state width="1237" height="325" key="GridCell.Tab.1.bottom" timestamp="1586761494435">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1586761494435" />
+    <state width="1237" height="325" key="GridCell.Tab.1.center" timestamp="1586761494434">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1586761494434" />
+    <state width="1237" height="325" key="GridCell.Tab.1.left" timestamp="1586761494434">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1586761494434" />
+    <state width="1237" height="325" key="GridCell.Tab.1.right" timestamp="1586761494434">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="325" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1586761494434" />
+    <state x="356" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1586762339080">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="356" y="255" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1586762339080" />
     <state x="380" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585803679527" />
   </component>
 </project>
